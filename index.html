@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+     
+        *{
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        
+        }
+        .el{
+           
+            width: 100%;
+            height: 90vh;
+         }
+         .carousel-inner{
+            width: 100%;
+                    height: 100vh; /* Full screen height */
+                } 
+       
+        
+        nav{
+            position: fixed;
+            top: 2%;
+            width: 87%;
+            
+            z-index: 1;
+            
+        }
+        .el1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            margin-left: 5.8%;
+            margin-right: 2%;
+            padding: 0.7%;
+            border-radius: 0.2rem;
+            height: 10vh; 
+        }
+        .el1a{
+            display:flex;
+            height: 4vh;
+            margin-left: 1.3%;
+            
+        }
+        .el1b{
+            display: flex;
+            margin-right: 55%;
+            gap: 25%;
+        }
+        .el1c{
+            display:flex;
+            gap: 30%;
+            margin-right: 6%;
+            
+        }
+        .elc1{
+            line-height: 26%;
+            margin-top: -16%;
+            font-size: 1.6rem;
+        }
+        .elc1a{
+            margin-left: 20%;
+        }
+        .elc1b{
+            margin-left: 8%;
+        }
+       
+        .el1d{
+            text-align: center;
+          
+        }
+        .el101{
+           margin-top: -33%;
+        }
+       
+        .el1h1{
+            font-size: 5.6rem;
+            color: white;
+        }
+        
+        #el1ea{
+             text-decoration: none;
+             display: flex;
+             margin-top: 2%;
+             margin-left: 37%;
+             background-color: white;
+             padding:1% ;
+             width: 12%;
+             height: 7.5vh;
+             color: black;
+        }
+        #el1eb{
+             text-decoration: none;
+             display: flex;
+             margin-top: -13.89%;
+             margin-left: 50%;
+             padding:1% ;
+             width: 12%;
+             height: 7.5vh;
+             color: white;
+             border: 0.1rem solid white;
+        }
+      
+        .el2{
+            display: flex;
+            margin-top: 5%;
+            
+        }
+       .el2a,.el2b{
+            flex-basis: 50%;
+        }
+        #el2a1{
+            margin-left: 28%;
+            height: 60vh;
+            width: 55%;
+         }
+         #el2a2{
+            height: 38vh;
+            width: 30%;
+            margin-left: 57.6%;
+            margin-top: -36%;
+            transform: rotate(22deg);
+         }
+         #el2b1{
+            text-decoration: none;
+            background-color:black;
+             padding:1% ;
+             color:white;
+             display: flex;
+             margin-top: 6%;
+             width: 20%;
+         }
+         .el3{
+            margin-top: 5%;
+            
+         }
+         .el4{
+            margin-top: 5%;
+           
+            
+         }
+         .el4a{
+            font-size: 2rem;
+            
+         }
+         .el4b{
+            margin-top: 3%;
+            display: grid;
+            grid-template-areas: 
+            "auto auto"
+            "auto auto"
+            "auto auto";
+            flex-basis: 50%;
+            justify-content: center;
+            gap: 2%;
+            position:relative;
+        }
+        #play{
+            position: absolute;
+            margin-top: 12%;
+            margin-left: -18%;
+          font-size: 6vh;
+          color:white;
+          background-color: black;
+          border-radius: 80%;
+        }
+        #play1{
+            position: absolute;
+            margin-top: 35%;
+            margin-left: -52%;
+          font-size: 6vh;
+          color:white;
+          background-color: black;
+          border-radius: 80%;
+        }
+        #play2{
+            position: absolute;
+            margin-top: 32.5%;
+            margin-left: -47%;
+          font-size: 6vh;
+          color:white;
+          background-color: black;
+          border-radius: 80%;
+        }
+        .el4mg{
+            height: 52vh;
+        }
+      
+        .el4b1{
+            font-size: 2rem;
+        }
+        .el4b2{
+            margin-top: 8%;
+            background-color: black;
+            padding: 0.9%;
+            width: 11%;
+            margin-left: 43%;
+            
+        }
+        .el4bp{
+            text-decoration: none;
+            color: white;
+           
+        }
+        .el5{
+            background-color: whitesmoke;
+            margin-top: 7%;
+        }
+        .el5a{
+            padding-top: 5%;
+            font-size: 1.8rem;
+        }
+        .el5b1{
+            width: 60%;
+            margin-top: 8%;
+            text-align: center;
+            border: 1px solid white;
+            background-color: white;
+            height: 29vh;
+            padding: 1.8%;
+            font-size: 70%;
+         }
+         .el5b1:hover{
+            -webkit-box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+            box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+            
+         }
+        .el5b{
+            background-color: whitesmoke;
+            height: 85vh;
+            width: 60%;
+            column-gap: 6%;
+            row-gap: 2%;
+            justify-content: center;
+            margin-left: 20%;
+        }
+        .el5b2{
+            display: flex;
+            gap: 2.5%;
+        }
+        .el5b3{
+            display: flex;
+            gap: 2.5%;
+            margin-top: -5.5%;
+        }
+        .el6{
+            display: flex;
+            justify-content: center;
+            flex-basis: 50%;
+            padding: 5%;
+            gap: 8%;
+            margin-left: 8%;
+        }
+        .el6a{
+            font-size: 1.6rem;
+        }
+        .el6b1a{
+            font-size: 1.4rem;
+        }
+        .el6b1{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .el6b2{
+            margin-top: 10%;
+            font-size:1.5rem;
+        }
+        .el6b3a{
+            display: flex;
+            margin-top: -1.5%;
+            
+        }
+        .el6b3b{
+            margin-top: 2%;
+        }
+        .el6b3c{
+            margin-top: 2%;
+        }
+        .el6b3{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10%;
+        }
+        #el6c{
+            width: 80%;
+        }
+        .el6c{
+         flex-basis: 40%;
+        }
+        #el6b3c{
+            background-color: gray;
+            color: gray;
+            border-radius: 50%;
+        }
+        .el7{
+            background-color: black;
+            display: flex;
+            height: 20vh;
+            justify-content: center;
+            align-items: center;
+            gap: 5.5%;
+           
+        }
+        #el71{
+           height: 3.5vh;
+           margin-right: 5%;
+           
+        }
+        .el7a{
+            width: 50%;
+        }
+        .el8{
+            display: flex;
+            margin-left: 5%;
+            margin-right: 40%;
+            
+           
+            height: 80vh;
+            width: 80%;
+            
+           
+        }
+        .el8b1{
+            display: flex;
+            height: 31.4%;
+            background-color: whitesmoke;
+            margin-right: 7%;
+            font-size: 80%;
+        }
+        .el8b1a{
+            width: 35%;
+        }
+        .el8b1b{
+            padding: 4%; 
+            padding-left: 1%;  
+        }
+        .el8a{
+            align-content: center;
+            justify-items: center;
+            margin-top:  2.75%;
+            padding: 2%;
+            line-height: 76.8%;
+        }
+        .el8a1{
+            background-color: whitesmoke;
+            width: 70%;
+            margin-top: -1.7%;
+            padding: 1.6%;
+
+        }
+        .el8b{
+            margin-top: 4.695%;
+            margin-left: -9.85%;
+           
+        }
+        #el8an{
+            text-decoration: none;
+            color: black;
+        
+        }
+        .el8h{
+            margin-top:6% ;
+            font-size: 4rem;
+
+        }
+        .el8width{
+            width: 70%;
+        }
+        .el9{
+            background-color: whitesmoke;
+            margin-top: 6%;
+            height: 95vh;
+    
+        }
+        .el9a{
+            padding-top: 3rem;
+            font-size: 2rem;
+            
+        }
+        .el9b{
+            display: flex;
+            font-size: 60%;
+
+        }
+        .el9b1{
+            flex-basis: 50%;
+            padding: 5%;
+           
+
+        }
+        .el9b2{
+            padding: 5%;
+           
+        }
+        summary {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        summary::after {
+            content: "▼"; /* Default down arrow */
+            font-size: 14px;
+            margin-left: 10px;
+        }
+       
+        details[open] summary::after {
+            content: "▲"; /* Up arrow when open */
+            
+        }
+        .el9p{
+            line-height: 90%;
+            font-size: 150%;
+        }
+        .el10{
+            display: flex;
+            margin-top: 30%;
+            background-color: black;
+        }
+        .el101 img{
+            height: 37.85vh;
+        }
+        
+        .el11{
+            display: flex;
+            padding: 8%;
+            gap: 7%;
+            background-color: black;
+            margin-top: -18.8%;
+        }
+        .el11i{
+            color: white;
+        }
+        .el111{
+            color: white;
+        }
+        .el11input{
+            padding: 10%;
+        }
+        .el111input{
+            padding: 10%;
+            width: 120.6%;
+            background-color: white;
+        }
+        .el12{
+            margin-top: -9%;
+            height: 10vh;
+        }
+        @media ( max-width: 768px){
+            *{
+                box-sizing: border-box;
+                padding: 0%;
+                margin: 0%;
+            }
+            .el{
+                background-color: black;
+                width: 110%;
+                min-height: 97vh;
+             }
+             .carousel-inner{
+            width: 100%;
+                    height: 97vh; /* Full screen height */
+                } 
+            nav{
+                position: fixed;
+                top: 5%;
+                width: 80%;
+                z-index: 1;
+                height: 30vh;
+            }   
+            .el1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                margin-left: 10.3%;
+                margin-right: 2%;
+                padding: 0.7%;
+                border-radius: 0.2rem;
+                height: 7.5vh; 
+            }
+            .el1a{
+                display:flex;
+                height: 5vh;
+                margin-left: 1.3%;
+                
+            }
+            .el1b{
+                display: flex;
+                margin-right: 32%;
+                gap: 5%;
+                font-size: 50%;
+                display: none;
+
+            }
+            .el1c{
+                display:flex;
+                gap: 10%;
+                margin-right: 5%;
+                font-size: 80%;
+            }
+            .elc1{
+                line-height: 26%;
+                margin-top: -5%;
+                font-size: 100%;
+            }
+            .elc1a{
+                margin-left: 20%;
+            }
+            .elc1b{
+                margin-left: 11%;
+            }
+            .el101{
+                margin-top: -120%;
+             }
+            
+             .el1h1{
+                 font-size: 2rem;
+                 color: white;
+             }
+             .el1p{
+                margin-top: 5%;
+                line-height: 150%;
+             }
+             
+             #el1ea{
+                  text-decoration: none;
+                  display: flex;
+                  margin-top: 9%;
+                  margin-left: 32%;
+                  background-color: white;
+                  padding:1% ;
+                  width: 35%;
+                  height: 5.4vh;
+                  color: black;
+             }
+             #el1eb{
+                  text-decoration: none;
+                  display: flex;
+                  margin-top: -29.4%;
+                  margin-left: 32%;
+                  padding:1% ;
+                  width: 35%;
+                  height: 5.4vh;
+                  color: white;
+                  border: 0.1rem solid white;
+             }
+             .el2{
+                margin-top: 5%;
+                display: grid;
+                grid-template-rows: auto auto;
+                 }
+            .el2b{
+               text-align: center;
+             }
+             #el2a1{
+                 margin-left: 14%;
+                 height: 50vh;
+                 width: 70%;
+              }
+              #el2a2{
+                 height: 23vh;
+                 width: 35%;
+                 margin-left: 51.6%;
+                 margin-top: -40%;
+                 transform: rotate(24deg);
+              }
+              #el2b1{
+                 text-decoration: none;
+                 background-color:black;
+                  padding:3% ;
+                  margin-left: 30%;
+                  color:white;
+                  margin-top: 9%;
+                  width: 40%;
+              }
+              .el3{
+                margin-top: -22%;
+            }
+            .el4{
+                margin-top: 9%;
+            }
+             .el4a{
+                font-size: 2.5rem;
+             }
+             .el4b{
+                margin-top: 14%;
+                display: grid;
+                grid-template-areas: 
+                "auto auto"
+                "auto auto"
+                "auto auto";
+                flex-basis: 50%;
+                justify-content: center;
+                text-align: center;
+                gap: -2%;
+                position:relative;
+            }
+           
+            
+            #play{
+                position: absolute;
+                margin-top:15%;
+                margin-left: -25%;
+              font-size: 3vh;
+              color:white;
+              background-color: black;
+              border-radius: 80%;
+            }
+           #play1{
+           
+            position: absolute;
+            margin-top: 33%;   
+            margin-left:-48%;  
+            font-size: 3vh;
+              color:white;
+              background-color: black;
+              border-radius: 80%;
+        }
+        #play2{
+           
+            position: absolute;
+            margin-top: 33%;   
+            margin-left:-48%;  
+            font-size: 3vh;
+              color:white;
+              background-color: black;
+              border-radius: 80%;
+        }
+            .el4mg{
+                height: 18vh;
+                padding: 4%;
+            }
+          
+            .el4b1{
+                font-size: 0.7rem;
+                padding: 2%;
+                margin-top: -14%;
+            }
+            .el4p{
+                font-size: 60%;
+                margin-top: -17%;
+            }
+            
+            .el4b2{
+                margin-top: 15%;
+                background-color: black;
+                padding: 1.2%;
+                width: 40%;
+                margin-left: 30%;
+                
+            }
+            .el4bp{
+                text-decoration: none;
+                color: white;
+               
+            }
+            .el5{
+                background-color: whitesmoke;
+                margin-top: 7%;
+            }
+            .el5a{
+                padding-top: 5%;
+                font-size: 1.8rem;
+            }
+            .el5b1{
+                width: 90%;
+                margin-top: 8%;
+                text-align: center;
+                border: 1px solid white;
+                background-color: white;
+                height: 29vh;
+                padding: 1.8%;
+                font-size: 70%;
+             }
+             .el5b1:hover{
+                -webkit-box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 115px -40px rgba(0,0,0,0.75);
+                
+             }
+            .el5b{
+                background-color: whitesmoke;
+                height: 100vh;
+                width: 90%;
+                column-gap: 6%;
+                row-gap: 2%;
+                justify-content: center;
+                margin-left: 7.25%;
+                font-size: 85%;
+            }
+            .el5b0{
+                margin-top: -239%;
+                margin-left: 104%;
+                height: 29vh;
+                width: 75%;
+            }
+            .el5b2{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto ;
+                gap: 2.5%;
+            }
+            .el5b3{
+                display: grid;
+                grid-template-areas: 
+                "auto auto"
+                "auto auto";
+                gap: 2.5%;
+                margin-top: 3%;
+            }
+            .el6{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                flex-basis: 50%;
+                padding: 5%;
+                gap: 8%;
+                margin-left: 8%;
+            
+            }
+            .el6a{
+                font-size: 1.6rem;
+            }
+            .el6b1a{
+                font-size: 1.4rem;
+            }
+            .el6b1{
+                display: flex;
+                justify-content: space-between;
+                font-size: 2%;
+            }
+            .el6b2{
+                margin-top: 10%;
+                font-size:1.2rem;
+            }
+            .el6b3a{
+                display: flex;
+                margin-top: -1.5%;
+                font-size: 1rem;
+                
+            }
+            .el6b3b{
+                margin-top: 2%;
+                margin-left:-9%;
+            }
+            .el6b3c{
+                margin-top: 5%;
+                margin-left: 35%;
+            }
+            .el6b3{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto ;
+                justify-content: space-between;
+                margin-top: 10%;
+            }
+            #el6c{
+                width: 260%;
+                height: 55vh;
+                margin-left: -95%;
+                margin-top: 12%;
+            }
+          
+            #el6b3c{
+                background-color: gray;
+                color: gray;
+                border-radius: 50%;
+            }
+            .el7{
+                background-color: black;
+                display: flex;
+                height: 15vh;
+                justify-content: center;
+                align-items: center;
+                gap: 5.5%;
+                margin-top: 10%;
+               
+            }
+            #el71{
+               height: 3.5vh;
+               margin-right: 5%;
+               
+            }
+            .el7a{
+                width: 80%;
+            }
+            .el8{
+                display: flex;
+                flex-wrap: wrap;
+               align-items:center ;
+               margin-left: 10%;
+                
+                height: 90vh;
+                width: 80%;
+
+            }
+            .el8b1{
+                display: flex;
+                height: 21.4%;
+                background-color: whitesmoke;
+                margin-left: 16%;
+                font-size: 80%;
+            }
+            .el8b1a{
+                width: 35%;
+            }
+            .el8b1b{
+                padding: 4%; 
+                padding-left: 1%;  
+            }
+            .el8a{
+                align-content: center;
+                justify-items: center;
+                margin-top:  2.75%;
+                padding: 2%;
+                line-height: 76.8%;
+            }
+            .el8a1{
+                background-color: whitesmoke;
+                width: 90%;
+                margin-top: -1.7%;
+                padding: 1.6%;
+                
+    
+            }
+            .el8b{
+                margin-top: 4.695%;
+                margin-left: -9.85%;
+                height: 76vh;
+                width: 190%;
+               
+            }
+            #el8an{
+                text-decoration: none;
+                color: black;
+                font-size: 80%;
+                
+            
+            }
+            .el8h{
+                margin-top:6% ;
+                font-size: 3rem;
+    
+            }
+            .el8heading{
+                font-size: 90%
+            }
+            .el8width{
+                width: 90%;
+            }
+            .el9{
+                background-color: whitesmoke;
+                margin-top: 60%;
+                height: 99vh;
+        
+            }
+            .el9a{
+                padding-top: 3rem;
+                font-size: 2rem;
+                
+            }
+            .el9b{
+                display: flex;
+                font-size: 60%;
+    
+            }
+            .el9heading{
+                font-size: 1.2rem;
+            }
+            .el9b1{
+                flex-basis: 50%;
+                padding: 5%;
+               
+            }
+            .el9b2{
+                padding: 5%;
+                flex-basis: 50%;
+
+            }
+            summary {
+                font-weight: bold;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            summary::after {
+                content: "▼"; /* Default down arrow */
+                font-size: 14px;
+                margin-left: 10px;
+            }
+           
+            details[open] summary::after {
+                content: "▲"; /* Up arrow when open */
+                
+            }
+            .el9p{
+                line-height: 90%;
+                font-size: 150%;
+            }
+            .el10{
+                display: flex;
+                margin-top: 109%;
+        
+            }
+            .el101 img{
+                height: 16vh;
+            }
+            .el11{
+                display: grid;
+                grid-template-columns: auto auto ;
+                grid-template-rows: auto auto auto;
+                justify-content:space-evenly;
+                padding: 8%;
+                gap: 4%;
+                background-color: black;
+                margin-top: -90%;
+                line-height: 90%;
+                height: 90vh;
+            }
+            .el11img{
+                width: 80%;
+            }
+            .el11i{
+                color: white;
+            }
+            .el111{
+                color: white;
+                margin-left: 10%;
+            }
+            .el11s{
+                font-size: 80%;
+            }
+            .el11input{
+                padding: 3%;
+                width: 100%;
+            }
+            .el111input{
+                padding: 3%;
+                width: 100%;
+                background-color: white;
+            }
+            .el12{
+            
+                height: 15vh;
+                font-size: 59%;
+            }
+            .el11bottom{
+                margin-top: -89%;
+                
+            }
+
+        }
+            
+        
+        </style>
+</head>
+<body>
+    <div class="el">  
+   
+    
+
+        
+       
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="3000">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/imge 1.webp" alt="Los Angeles" class="d-block" >
+                    <!-- <div class="carousel-caption" data-aos="fade-up">
+                        <h1>Get 15% off your rental Plan your trip now</h1>
+                        <p>Treat yourself in USA</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/el1b.webp" alt="Chicago" class="d-block" >
+                    <!-- <div class="carousel-caption" data-aos="fade-left">
+                        <h1>Get 15% off your rental Plan your trip now</h1>
+                        <p>Treat yourself in USA</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/el1a.webp" alt="Chicago" class="d-block" >
+                    <!-- <div class="carousel-caption" data-aos="fade-right">
+                        <h1>Get 15% off your rental Plan your trip now</h1>
+                        <p>Treat yourself in USA</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+            
+            
+
+
+
+
+    
+    
+      
+      
+        <nav class="el1">
+          <div class="el1a" >  
+                <img src="./images/triva.svg" alt="">
+          </div>
+          <div class="el1b">
+                <div>Home</div>
+                <div>About</div>
+                <div>Pages</div>
+                <div>Portfolio</div>
+                <div>Blog</div>
+            </div>
+            <div class="el1c">
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="elc1"> 
+                    <div   class="elc1a">____</div>
+                    <div>______</div>
+                    <div   class="elc1b">____</div>
+                </div>
+            </div>
+        </nav>
+    </div>
+        <div class="el101" data-aos="fade-up" data-aos-duration="3000">
+          <div class="el1d"  >
+            <h1 class="el1h1">Capturing the world’s <br> stunning beauty, one epic <br> adventure at a time!</h1>
+            <p style="color: white; " class="el1p">Every destination tells a story, and through my lens, I capture moments that turn into timeless  memories.<br> These moments inspire and connect us,sharing <br>  the beauty of the world.</p>
+          </div>
+          <div class="el1e"  >
+              <div > <a href="./task.html" name="jay" id="el1ea" >Explore more &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="margin-top: 4%;"></i></a>
+             <iframe src="" target="jay" frameborder="0"></iframe></div>                                                                                   
+    
+             <div><a href="./task.html" name="jay1" id="el1eb" >View protfolio &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right"  style="margin-top: 4%;"></i></a>
+                <iframe src="" target="jay1" frameborder="0"></iframe></div>
+             </div>
+        </div>
+
+   <div class="el2">
+     <div class="el2a" data-aos="fade-up" data-aos-duration="3000">
+        <div><img src="./images/img el2a.webp" alt=""  id="el2a1"></div>
+        <div ><img src="./images/el2b.webp" alt="" id="el2a2"></div>
+     </div>
+     <div class="el2b" data-aos="fade-up" data-aos-duration="3000">
+        <h1 style="font-size: 3.7rem;">About me</h1> <br>
+        <p style="font-size: 1.5rem;">Hi, I’m Ethan, a travel content creator passionate about <br> capturing the world’s beauty. Through my lens, I share <br> stories of unforgettable journeys, from that vibrant city <br> streets to serene landscapes. <br><br>
+
+            My goal is to inspire others to explore and experience <br> the world with fresh eyes, one frame at a time.</p>
+            
+            <div><a href="./task.html" name="jay1" id="el2b1" >View protfolio &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                <iframe src="" target="jay1" frameborder="0"></iframe></div>
+     </div>
+   </div>
+   <div class="el3" data-aos="fade-up" data-aos-duration="3000">
+     <video src="./images/el3.mp4" autoplay controls width="100%"  muted >
+        
+     </video>
+
+   </div>
+   <div class="el4">
+      <div class="el4a" data-aos="fade-up" data-aos-duration="1000">
+     <center><h1>My travel creations</h1></center>
+    </div>
+      <div class="el4b">
+        <div data-aos="fade-up" data-aos-duration="1000" >
+         <a href="" target="hello"><img src="./images/el41.webp"  alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play1"></i></a>    <br><br>
+        <h2 class="el4b1">Savoring stunning views from a <br> perfect getaway spot.</h2><br>
+        <p class="el4p">Relishing breathtaking natural vistas from ideal retreat, embracing the <br> calm and serene beauty of the place.</p>
+      </div>
+       <div data-aos="fade-up" data-aos-duration="1000" >
+         <a href=""><img src="./images/el42.webp" alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play2"></i></a> <br><br>
+          <h2 class="el4b1">Capturing the best moments of <br> every travel journey.</h2> <br>
+          <p class="el4p">Every journey tells a story, and through my lens, I capture the beauty and <br> moments that make each adventure unique.</p>
+       </div>
+       <div>
+        <a href=""><img src="./images/el43.webp" alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play"></i></a> <br><br>
+        <h2 class="el4b1">Coastal journeys the retro van <br> adventure.</h2> <br>
+        <p class="el4p">Where the wilderness meets peace, and the sunset paints the sky with <br>pure serenity and quiet beauty.</p>
+       </div>
+       <div>
+        <a href=""><img src="./images/el44.webp" alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play"></i></a> <br><br>
+        <h2 class="el4b1">Paly Icon Awakening to adventure <br> was a peaceful morning in nature.</h2> <br>
+        <p class="el4p">Embracing the dawn of adventure, a serene morning surrounded by <br> nature’s calm and vibrant beauty.</p>
+       </div>
+       <div>
+         <a href=""><img src="./images/el45.webp" alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play"></i></a> <br><br>
+         <h2 class="el4b1">Capturing the moment sunset by <br>the shore.</h2> <br>
+        <p class="el4p">Seizing the perfect moment, where the vibrant sunset meets the <br>calm shore in peaceful harmony.</p>
+       </div>
+       <div>
+        <a href=""><img src="./images/el46.webp" alt="" class="el4mg"><i class="fa-solid fa-circle-play" id="play"></i></a> <br><br>
+        <h2 class="el4b1">Soaring high a moment of pure joy <br> in freefall</h2> <br>
+        <p class="el4p">Chasing the wind, a moment of pure joy and freedom as you soar in the <br> thrilling rush of freefall</p>
+       </div>
+      </div>
+      <div class="el4b2" data-aos="fade-up" data-aos-duration="3000">
+         <a href="" class="el4bp" >View all videos &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+     </div>
+    </div>
+    <br><br>
+<div class="el5"> 
+         
+  <div class="el5a" data-aos="fade-up" data-aos-duration="3000">
+        <center><h1>Explore the world <br> with my expertise</h1></center>
+  </div>
+   <div class="el5b">  
+    <div class="el5b2">
+       <div class="el5b1" data-aos="fade-up" data-aos-duration="1200">
+         <img src="./images/el51.svg" alt="">
+         <h2>Travel planning</h2>
+         <p>Personalized itineraries, tailored inspire <br>accommodations, curated activities<br>seamless planning to  your trip.</p>
+       </div>
+       <div class="el5b1" data-aos="fade-up" data-aos-duration="2000">
+        <img src="./images/el52.svg" alt=""  >
+        <h2>Content creation</h2>
+        <p>Unleashing creativity through visuals and <br> engaging narratives, content creation <br> connects audiences with stories.</p>
+       </div>
+       <div  class="el5b1" data-aos="fade-up" data-aos-duration="3000">
+        <img src="./images/el53.svg" alt="" >
+        <h2>Social media marketing</h2>
+        <p>Harnessing the power of platforms engage <br> to audiences, build brands, and drive <br>
+            & meaningful connections.</p>
+       </div>
+    </div>
+    <div class="el5b3">
+      <div  class="el5b1" data-aos="fade-up" data-aos-duration="1200">
+        <img src="./images/el54.svg" alt="">
+        <h2>Influencer collaborations</h2>
+        <p>Partnering with trusted voices of influence to amplify reach, </p>
+      </div>
+      <div  class="el5b1" data-aos="fade-up" data-aos-duration="2000">
+        <img src="./images/el55.svg" alt="">
+        <h2>Workshops and tours</h2>
+        <p>Offering immersive workshops and guided  tours to inspire learning, exploration, and unforgettable experiences.</p>
+      </div>
+      <div  class="el5b1 el5b0" data-aos="fade-up" data-aos-duration="3000">
+        <img src="./images/el56.svg" alt="" >
+        <h2>Consultation services</h2>
+        <p>Providing expert consultation services to guide decisions, solve challenges, and  achieve your goals effectively.</p>
+      </div>
+    </div>
+  </div> 
+</div>
+            <div class="el6a"  data-aos="fade-up" data-aos-duration=" 2000">
+             <center> <h1 style="margin-top: 6%;">My travel creations</h1></center>
+            </div>
+   <div class="el6"  data-aos="fade-up" data-aos-duration="4000">
+      <div class="el6b">
+         <div class="el6b1">
+             <div class="el6b1a">
+                <h2>Sophia Green</h2>
+                <p>Content Writer</p>
+             </div>
+             <div class="el6b1b">
+                <img src="./images/el61.svg" alt="">
+             </div>
+          </div>
+         <div class="el6b2">
+            <p>Collaborating with Travial was one of the  best ever <br> decisions for our brand! Their content captured every <br> detail of our  destinations with creativity and highly <br> professionalism.
+
+                <br><br>Each story was brought to life, leaving our audience<br>  inspired  and eager to explore more.</p>
+         </div>
+         <div class="el6b3">
+           <div class="el6b3a">
+                <div><img src="./images/el62.svg" alt=""></div>
+                <div>
+                    <p>Verified By</p>
+                    <h3 style="font-size: 1rem ; margin-top:-20%;">Braveleaf</h3>
+                </div>
+           </div>
+           <div class="el6b3b" >
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="el6b3c">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle" id="el6b3c"></i>
+            <i class="fa-regular fa-circle" id="el6b3c"></i>
+           </div>
+        </div>
+      </div>
+      <div class="el6c">
+        <img src="./images/el65.webp" alt="" id="el6c">
+      </div>
+   </div>
+<div class="el7">
+    <div class="el7a" data-aos="fade-up" data-aos-duration="2000">
+    <marquee behavior="" direction=""  >
+      <img src="./images/el71.svg" id="el71" alt="">  <img src="./images/el72.svg" id="el71" alt="" >  <img src="./images/el73.svg" id="el71" alt="" >  <img src="./images/el74.svg" height="21vh" style="margin-right: 5%;" alt="">   <img src="./images/el75.svg" id="el71" alt="">
+    </marquee>
+   </div>
+</div>
+
+
+ <div data-aos="fade-up" data-aos-duration="3000">
+    <center> <h1 class="el8h">Travel stories & <br> resources</h1></center>
+ <div class="el8">
+      <div class="el8a" data-aos="fade-right"  data-aos-duration="3000">
+        <center><img src="./images/el81.webp"  class="el8width" alt=""></center>
+         <div class="el8a1">
+            <pre style="margin-top: 5%;">Adventure &nbsp; &nbsp;   February 3,2025</pre> <br>
+        <h4>Discovering unforgettable travel <br>stories along your journey</h4> <br>
+        <p>Explore tips and tricks for taking stunning travel photos and <br>videos, even in the most challenging conditions.</p> <br>
+        <a href="" id="el8an">Read more <i class="fa-solid fa-arrow-right"></i> </a>
+        </div>
+      </div>
+      <div class="el8b" data-aos="fade-left"  data-aos-duration="3000">
+        <div class="el8b1">
+            <div class="el8b1a"><img src="./images/el82.webp" width="90%" height="100%" id="el8" alt=""></div>
+            <div class="el8b1b">
+                <div> <pre>Travel &nbsp; January 31,2025</pre> </div>
+                <h5 class="el8heading">Master the artcof vlogging <br> your best adventures</h5><br>
+                <a href="" id="el8an" class="el8an">Read more<i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+        </div>
+        <br>
+        <div class="el8b1">
+            <div class="el8b1a"><img src="./images/el83.webp" width="89%" height="100%" id="el8" alt=""></div>
+            <div class="el8b1b">
+                <div> <pre>Memories &nbsp; January 31,2025</pre></div>
+                <h5 class="el8heading">Timeless memories for <br> travel lovers seeking </h5><br>
+                <a href="" id="el8an" class="el8an">Read more<i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+        </div>
+        <br>
+        <div class="el8b1">
+            <div class="el8b1a"><img src="./images/el84.webp" width="89%" height="100%" id="el8" alt=""></div>
+            <div class="el8b1b">
+                <div><pre>Creativity &nbsp; January 31,2025</pre></div>
+                <h5 class="el8heading">Timeless memories for <br>travel lovers seeking </h5><br>
+                <a href="" id="el8an" class="el8an">Read more<i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="el9" data-aos="fade-up" data-aos-duration="3000">
+    <div class="el9a"><center><h1>Most asked questions</h1></center></div>
+    <div class="el9b">
+        <div class="el9b1">
+         <details>
+            <summary><h4 class="el9heading">Can I use blog posts in my portfolio?</h4></summary>
+            <p class="el9p">It’s a showcase of your best travel photos, videos, and stories, highlighting your <br> creativity and travel experiences.</p>
+         </details>
+         <hr>
+         <details>
+            <summary><h4  class="el9heading"> How do you approach a new project?</h4></summary>
+            <p class="el9p">A collection of your most breathtaking travel moments, captured  through<br> stunning visuals and compelling stories.</p>
+         </details>
+         <hr>
+         <details>
+            <summary><h4  class="el9heading">What industries do you specialize in?</h4></summary>
+            <p class="el9p">A curated display of your best travel photos, videos, and experiences,<br> reflecting your unique adventures and creativity.</p>
+         </details>
+         <hr>
+         <details>
+            <summary><h4  class="el9heading">How long does a typical project take?</h4></summary>
+            <p class="el9p">A vibrant mix of captivating travel shots, immersive videos, and personal <br> narratives from your journeys around the world.</p>
+         </details>
+         <hr>
+         <details>
+            <summary><h4  class="el9heading">What is your pricing structure?</h4></summary>
+            <p class="el9p">A visual diary of your most memorable travels, blending artistic photography, <br>dynamic videos, and heartfelt stories</p>
+         </details>
+        </div>
+        <div class="el9b2">
+            <details>
+                <summary><h4  class="el9heading">How do I attract clients with my portfolio?</h4></summary>
+                <p class="el9p">A showcase of your finest travel captures, storytelling, and cinematic clips <br> that bring your adventures to life.</p>
+            </details>
+            <hr>
+            <details>
+                <summary><h4  class="el9heading">Can I update my portfolio?</h4></summary>
+                <p class="el9p">A curated collection of your best travel photos, videos, and stories,<br> capturing unforgettable moments from around the world.</p>
+            </details>
+            <hr>
+            <details>
+                <summary><h4  class="el9heading">What type of content should I feature?</h4></summary>
+                <p class="el9p">A showcase of your most creative travel experiences, blending stunning <br> visuals with immersive storytelling.</p>
+            </details>
+            <hr>
+            <details>
+                <summary><h4  class="el9heading">How often should I update my portfolio?</h4></summary>
+                <p class="el9p">A collection of breathtaking travel shots, dynamic videos, and personal <br> narratives highlighting your adventures.</p>
+            </details>
+            <hr>
+            <details>
+                <summary><h4  class="el9heading">Can I include testimonials in my portfolio?</h4></summary>
+                <p class="el9p">A vibrant mix of photography, video highlights, and compelling stories that <br> bring your travels to life.</p>
+            </details>
+        </div>
+    </div>
+   </div>
+
+   <div class="el10"  >
+       <div class="el101"  data-aos="zoom-in" data-aos-duration="1000">
+        <img src="./images/el101.webp" alt="">
+       </div>
+       <div class="el101" data-aos="zoom-in"  data-aos-duration="1000">
+        <img src="./images/el102.webp" alt="">
+       </div>
+       <div class="el101"data-aos="zoom-in" data-aos-duration="1000">
+        <img src="./images/el103.webp" alt="">
+       </div>
+       <div class="el101" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="./images/el104.webp" alt="">
+       </div>
+       <div class="el101" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="./images/el105.webp" alt="">
+       </div>
+   </div>
+   
+   <div class="el11">
+          <div class="el111 el11s">
+            <img src="./images/triva.svg" alt="" class="el11img" style="background-color: white;"><br><br>
+            <p>Thesis is a magazine-style template on <br> Webflow, packed with powerful features and <br>designed to be fully responsive and <br> mobile-friendly.</p> <br>
+            <i class="fa-brands fa-x-twitter" class="el11i"></i> &nbsp; <i class="fa-brands fa-facebook-f" class="el11i"></i> &nbsp; <i class="fa-brands fa-instagram" class="el11i"></i> &nbsp; &nbsp;<i class="fa-brands fa-linkedin-in" class="el11i"></i> &nbsp;&nbsp;<i class="fa-brands fa-youtube" class="el11i"></i>
+        </div>
+          <div class="el111">
+            <b>Menu</b><br><br>
+            <p>Home</p><br>
+            <p>About Me</p><br>
+            <p>Portfolio</p><br>
+            <p>Blog</p>
+          </div>
+          <div class="el111">
+            <b>Pages</b><br><br>
+            <p>Style Guide</p><br>
+            <p>Licenses</p><br>
+            <p>Changelog</p><br>
+          </div>
+          <div class="el111">
+            <b>Address</b><br><br>
+            <p>Riverfront Street</p><br>
+            <p>San Francisco, CA 94105, USA</p>  <br>
+            <b>Inquiries</b><br><br>
+            <p> 80 222 589 000</p><br>
+            <p>mthemeus@gmail.com</p><br>
+        </div>
+          <div class="el111 el11bottom">
+            <b>Newsletter</b> <br><br><br>
+            <input type="emil"  placeholder="Email" class="el11input" ><br><br><br>
+            <input type="submit" placeholder="join"  class="el111input">
+          </div>
+          </div>
+            
+           
+        
+        <div style="background-color: black;" class="el12">
+            <center><hr style="color:white;" width="60%"><br>
+           <p style="color: white; ">© 2025 - Designed by MFlowt- Powered by Webflow  </p></center><br>
+        
+        </div>    
+   <script>
+    AOS.init();
+  </script>
+</body>
+</html>
